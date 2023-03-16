@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: rgb(11, 57, 58);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-height: 1000px;
+    min-height: 1000px;
+    background-color: rgb(86, 76, 76);
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+.profile-text{
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(36, 36, 39);
+}
+.container .left-side{
+    position: relative;
+    background-color: rgb(52, 52, 119);
+    padding: 40px;
+
+}
+.profile-text .img{
+    margin-left: 75px;
+}    
+img {
+    width: 200px;
+    height: 200px;
+    border: solid wheat;
+}
+    
+.profile-text h2{
+    color: antiquewhite;
+    font-size: 25px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.container .right-side{
+    position: relative;
+    background-color: rgb(144, 144, 160);
+    padding: 40px;
+    
+}
+ .hero1{
+    position: relative;
+    margin-left: 75px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.contant-info{
+    padding: 35px;
+}
+.title{
+    color: azure;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.contant-info ul{
+    position: relative;
+}
+.contant-info ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    color: rgb(135, 151, 151);
+}
+.edu ul{
+    position: relative;
+}
+.edu ul li{
+    position: relative;
+    list-style: none;
+    color: rgb(135, 151, 151);
+}
+.edu{
+    margin-left: 35px;
+}
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(204, 204, 185);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.about-me{
+    margin-top: 25px;
+    color:azure;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+.personal details{
+    margin-top: 25px;
+    color:rgb(30, 30, 50);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+.form{
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 426px) {
+    .container{float:none;grid:none;}
+}
